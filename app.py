@@ -19,7 +19,7 @@ st.title("What's your Superhero Name? 😎") # emojis: press "windows key" und "
 fav_color = st.text_input("Enter your favourite color:", placeholder="Green")
 
 # 2. User Input
-fav_animal = st.text_input("Enter your favourite wife:", placeholder="Polly")
+fav_animal = st.text_input("Enter your favourite animal:", placeholder="Camel")
 
 # 3. User Input
 lucky_number = st.number_input("Enter your lucky number:", min_value=1, step=1, value=7)
