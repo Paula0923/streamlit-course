@@ -16,10 +16,10 @@ st.title("What's your Superhero Name? 😎") # emojis: press "windows key" und "
 #################### USER INPUTS ###############
 
 # 1. User Input
-fav_hus = st.text_input("Enter your favourite Lexie:", placeholder="The One")
+fav_color = st.text_input("Enter your favourite Lexie:", placeholder="The One")
 
 # 2. User Input
-fav_wife = st.text_input("Enter your favourite Polly:", placeholder="The Other One")
+fav_animal = st.text_input("Enter your favourite Polly:", placeholder="The Other One")
 
 # 3. User Input
 lucky_number = st.number_input("Enter the year you married:", min_value=1, step=1, value=2021)
