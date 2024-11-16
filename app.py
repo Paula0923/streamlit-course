@@ -16,19 +16,19 @@ st.title("What's your Superhero Name? 😎") # emojis: press "windows key" und "
 #################### USER INPUTS ###############
 
 # 1. User Input
-fav_color = st.text_input("Enter your favourite color:", placeholder="Green")
+fav_hus = st.text_input("Enter your favourite Lexie:", placeholder="The One")
 
 # 2. User Input
-fav_animal = st.text_input("Enter your favourite animal:", placeholder="Camel")
+fav_wife = st.text_input("Enter your favourite Polly:", placeholder="The Other One")
 
 # 3. User Input
-lucky_number = st.number_input("Enter your lucky number:", min_value=1, step=1, value=7)
+lucky_number = st.number_input("Enter the year you married:", min_value=1, step=1, value=2021)
 
 # 4. Select box
-superpower = st.selectbox("Select a superpower:", ["flying", "patience", "coding"])
+superpower = st.selectbox("Select a superpower:", ["being married", "patience with my wifey", "kissing"])
 
 # 5. Superhero Name
-superhero_name = (f"{fav_color} {fav_animal} of {lucky_number}")
+superhero_name = (f"{fav_color} and {fav_animal} since {lucky_number}")
 
 # 6. Display superhero name and power
 if st.button("Generate my Superhero Name") == True:
